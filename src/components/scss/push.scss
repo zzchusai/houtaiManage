@@ -1,0 +1,25 @@
+@charset "utf-8";
+.sf-addPush{
+  margin: 0px 30px;
+  border-top: 1px solid #f1f1f1;
+  .sf-addPush-form{
+    width:500px;
+    margin:0 auto;
+    padding-top:50px;
+    padding-right: 40px;
+  }
+  .sf-addPush-w300{
+    width: 300px;
+  }
+  .sf-addPush-show{
+    margin-left: 10px;
+    color: #20a0ff;
+    cursor: pointer;
+  }
+  .sf-addPush-back{
+    margin-right:65px!important;
+  }
+}
+.sf-historyPush{
+  padding: 0px 30px;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+.sf-details{
+  font-family: MicrosoftYaHei-Bold;
+  padding-left: 0px;
+  .sf-main-top{
+    margin-top: 0px;
+    padding: 20px 20px 10px;
+   font-size: 20px;
+    color: #404040;
+    border: 1px solid #D8D8D8;
+  }
+  .sf-time{
+    color: #B3B3B3;
+    font-size: 12px;
+  }
+  .sf-content{
+    padding: 30px 10%;
+    font-size: 14px;
+    .sf-share{
+      img{
+        display:inline;
+      }
+    }
+  }
+  .sf-content img{
+    display: block;
+    margin: 0px auto;
+    max-width:600px;
+    height:auto;
+  }
+  .sf-lv{
+    color: #B3B3B3;
+    font-size: 12px;
+  }
+}

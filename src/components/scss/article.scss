@@ -1,0 +1,65 @@
+@charset "utf-8";
+iframe{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+video{
+  width: 100%;
+}
+.sf-form{}
+
+.sf-form-tile input{
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  padding: 0px 30px 0px 0px;
+  text-align: center;
+  border-radius:0;
+}
+.sf-form-tile input:focus{
+  border: 1px solid #ffffff;
+}
+.sf-form-tile input:hover{
+  border: 1px solid #ffffff;
+}
+
+.sf-form .el-form-item {
+  margin-bottom: 0px;
+}
+.sf-form img{
+  width: 50%;
+}
+.limit{
+  float:right;
+  color: #b0b6c7;
+  font-size: 13px;
+}
+.sf-author input{
+  width: 200px;
+}
+.sf-author .el-input{
+  width: 0;
+}
+.sf-author-tag {
+  color: #b0b6c7;
+  margin-left: 47px;
+}
+.sf-btn{
+  height:32px;
+  padding:0 15px;
+  margin-right:15px;
+}
+.sf-main .ql-snow .ql-tooltip{
+  width: 330px;
+  position:static;
+  margin-left: 290px !important;
+  margin-top: -550px!important;
+}
+.ql-snow .ql-tooltip[data-mode=video]::before {
+  content: "请输入url:";
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+  border-right: 0px;
+  content: '插入';
+  padding-right: 0px;
+}

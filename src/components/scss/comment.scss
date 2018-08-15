@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.sf-comment{
+  height: 100%;
+  margin-right: 30px;
+  .sf-comment-content{
+    color:#333333;
+    border-bottom: 1px solid #D8D8D8;
+  }
+  .sf-comment-btn{
+    cursor: pointer;
+  }
+  .sf-comment-btn img{
+    width: 20px;
+    height: 17px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+  }
+  .sf-back-layout{
+    padding: 20px 20px 15px;
+    border-bottom: 1px solid #c6c6c6;
+  }
+  .sf-user-icon{
+    width: 50px;
+    height: 50px;
+  }
+  .sf-user-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .sf-revert{
+    color:#999999;
+    background: url(../../../static/img/revert.png) no-repeat center left;
+    background-size: 17px 14px;
+    padding-left:20px;
+    cursor: pointer;
+  }
+  .sf-top-btn{
+    color:#999999;
+    background: url(../../../static/img/top.png) no-repeat center right;
+    background-size: 10px 6px;
+    padding: 0px 12px 0px 0px;
+    cursor: pointer;
+  }
+  .sf-bottom-btn{
+    color:#999999;
+    background: url(../../../static/img/bottom.png) no-repeat center right;
+    background-size: 10px 6px;
+    padding: 0px 12px 0px 0px;
+    cursor: pointer;
+  }
+  .sf-comment-text{
+    border: 1px solid rgb(0, 176, 232);
+    padding:10px 15px 10px 10px;
+    position: relative;
+    top: 0px;
+  }
+  .sf-comment-text textarea{
+    min-height: 69px;
+    //overflow: hidden;
+  }
+  .sf-select-user{
+    margin-left:5px;
+    color: #CCCCCC;
+    cursor: pointer;
+  }
+  .sf-confirm-btn{
+    background-color: #0099E5;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    cursor: pointer;
+  }
+  .sf-comment-child{
+    border: 0px;
+    margin-left:45px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .sf-pt0{
+    padding-top: 0px;
+  }
+  .sf-navy-main{
+    position: fixed;
+    top: 5%;
+    right: calc((100% - 900px)/2);
+    width: 900px;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 11;
+    padding: 10px 0px;
+  }
+  .sf-navy-select{
+    padding: 30px 30px;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  .sf-user-select{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .sf-user-select img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: -3px;
+    margin-right: 5px;
+  }
+  .sf-user-name{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 195px;
+  }
+  .el-radio__label {
+    padding-left: 10px;
+  }
+  .sf-user-form{
+    overflow-y:auto;
+    height: 300px;
+  }
+  .sf-radio{
+    padding-right: 50px;
+  }
+  .sf-radio .el-radio__input{
+    float:left;
+    margin-top: 8px;
+  }
+
+}
+.sf-feedback{
+  border-top: 1px solid #D8D8D8;
+  padding:50px 0px 80px;
+  margin: 0 30px;
+  font-family: "MicrosoftYaHeiLight";
+}
+.sf-feedback-list{
+  margin-left: 50px;
+}
+.sf-feedback-list div{
+  margin-left:150px;
+}
+.sf-feedback-list div img{
+  width:100px;
+  height: 178px;
+}
+.sf-feedback-title{
+  width: 150px;
+}
+.sf-feedback-back{
+  color: #999999;
+  background: url(/static/img/revert.145005c.png) no-repeat center left;
+  background-size: 17px 14px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-left: 155px;
+}
+.sf-feedback-text{
+  border: 1px solid #00b0e8;
+  padding: 10px 15px 20px 10px;
+  position: relative;
+  top: 0px;
+  margin-left: 155px !important;
+}
+.sf-feedback-text textarea {
+  height: 80px;
+}
+.sf-feedback-text .sf-confirm-btn {
+  background-color: #0099E5;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px 15px;
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html lang="zh">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>十方云水</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="vue.js, wms, vue2, 后台模板, 管理系统, element" />
+	<meta name="description" content="基于Vue2 + Element UI 的后台管理系统解决方案" />
+    <script type="text/javascript">
+		//浏览器版本判断：隔离浏览器：ie5\6\7\8\9
+		(function getExplorer() {
+		    var explorer = window.navigator.userAgent ;
+		    //ie
+		    if (explorer.indexOf("MSIE") >= 0) {
+		        var ieNum = explorer.substr(explorer.indexOf("MSIE")+5,1);
+		        if(ieNum == '5'){
+		            console.log("ie5");
+		            window.location.href = 'html/version.html';
+		        }else if(ieNum == '6'){
+		            console.log("ie6");
+		            window.location.href = 'html/version.html';
+		        }else if(ieNum == '7'){
+		            console.log("ie7");
+		            window.location.href = 'html/version.html';
+		        }if(ieNum == '8'){
+		            console.log("ie8");
+		            window.location.href = 'html/version.html';
+		        }if(ieNum == '9'){
+		        	console.log("ie9");
+		        	window.location.href = 'html/version.html';
+		        }
+		    }
+		    //firefox
+		    else if (explorer.indexOf("Firefox") >= 0) {
+		        console.log("Firefox");
+		    }
+		    //Chrome
+		    else if(explorer.indexOf("Chrome") >= 0){
+		        console.log("Chrome");
+		    }
+		    //Opera
+		    else if(explorer.indexOf("Opera") >= 0){
+		        console.log("Opera");
+		    }
+		    //Safari
+		    else if(explorer.indexOf("Safari") >= 0){
+		        console.log("Safari");
+		    }
+		})();
+		/*window.onload = function(){
+			var height = window.innerHeight;
+			var el = document.getElementsByClassName('main');
+			el[0].style.height = (height-100)+'px';
+		}*/
+
+	</script>
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>
